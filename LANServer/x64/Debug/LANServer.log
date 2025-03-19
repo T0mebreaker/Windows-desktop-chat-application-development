@@ -1,0 +1,7 @@
+﻿  server.cpp
+D:\Program\LANChar\LANServer\server.cpp(19,41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Program\LANChar\LANServer\server.cpp(27,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Program\LANChar\LANServer\server.cpp(31,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Program\LANChar\LANServer\server.cpp(45,42): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Program\LANChar\LANServer\server.cpp(54,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  LANServer.vcxproj -> D:\Program\LANChar\x64\Debug\LANServer.exe

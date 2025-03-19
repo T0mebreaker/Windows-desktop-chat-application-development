@@ -1,0 +1,44 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“82.157.131.178”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\Program\LANChar\Server\main.cpp(21,20): warning : conversion from 'long long int' to 'std::map<int, std::__cxx11::basic_string<char> >::key_type' {aka 'int'} may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(30,7): warning : conversion from 'long long int' to 'int' may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(30,7): warning :    30 |  send(cli, tn.data(), tn.size(), 0);
+D:\Program\LANChar\Server\main.cpp(30,7): warning :       |       ^~~
+D:\Program\LANChar\Server\main.cpp(34,18): warning : conversion from 'long long int' to 'int' may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(34,18): warning :    34 |   int len = send(cli, i.second.data(), i.second.size(), 0);
+D:\Program\LANChar\Server\main.cpp(34,18): warning :       |                  ^~~
+D:\Program\LANChar\Server\main.cpp(34,17): warning : conversion from 'ssize_t' {aka 'long int'} to 'int' may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(34,17): warning :    34 |   int len = send(cli, i.second.data(), i.second.size(), 0);
+D:\Program\LANChar\Server\main.cpp(34,17): warning :       |             ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Program\LANChar\Server\main.cpp(35,11): warning : comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+D:\Program\LANChar\Server\main.cpp(35,11): warning :    35 |   if (len != i.second.size()) {
+D:\Program\LANChar\Server\main.cpp(35,11): warning :       |       ~~~~^~~~~~~~~~~~~~~~~~
+D:\Program\LANChar\Server\main.cpp(41,18): warning : conversion from 'long long int' to 'int' may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(41,18): warning :    41 |   int len = recv(cli, msg, sizeof(msg), 0);
+D:\Program\LANChar\Server\main.cpp(41,18): warning :       |                  ^~~
+D:\Program\LANChar\Server\main.cpp(41,17): warning : conversion from 'ssize_t' {aka 'long int'} to 'int' may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(41,17): warning :    41 |   int len = recv(cli, msg, sizeof(msg), 0);
+D:\Program\LANChar\Server\main.cpp(41,17): warning :       |             ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Program\LANChar\Server\main.cpp(46,34): warning : conversion from 'long long int' to 'std::map<int, std::__cxx11::basic_string<char> >::key_type' {aka 'int'} may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(56,26): warning : conversion from 'long long int' to 'std::map<int, std::__cxx11::basic_string<char> >::key_type' {aka 'int'} may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(60,21): warning : conversion from 'long long int' to 'std::map<int, std::__cxx11::basic_string<char> >::key_type' {aka 'int'} may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(61,19): warning : conversion from 'long long int' to 'std::map<int, std::__cxx11::basic_string<char> >::key_type' {aka 'int'} may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(61,19): warning :    61 |   m_clients.erase(cli);
+D:\Program\LANChar\Server\main.cpp(61,19): warning :       |                   ^~~
+D:\Program\LANChar\Server\main.cpp(62,9): warning : conversion from 'long long int' to 'int' may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(62,9): warning :    62 |   close(cli);
+D:\Program\LANChar\Server\main.cpp(62,9): warning :       |         ^~~
+D:\Program\LANChar\Server\main.cpp(88,13): warning : conversion from 'ssize_t' {aka 'long int'} to 'socklen_t' {aka 'unsigned int'} may change value [-Wconversion]
+D:\Program\LANChar\Server\main.cpp(88,13): warning :    88 |   len = recv(sockCli, msg, 20, 0);
+D:\Program\LANChar\Server\main.cpp(88,13): warning :       |         ~~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Program\LANChar\Server\main.cpp(98,43): warning : cast to pointer from integer of different size [-Wint-to-pointer-cast]
+D:\Program\LANChar\Server\main.cpp(98,43): warning :    98 |   pthread_create(&tid, 0, RecvMSG, (void*)sockCli);
+D:\Program\LANChar\Server\main.cpp(98,43): warning :       |                                           ^~~~~~~
+  正在链接对象
+  Server.vcxproj -> D:\Program\LANChar\Server\bin\x64\Release\Server.out
